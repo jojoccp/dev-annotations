@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="index.css">
+        <title>Annotations</title>
+</head>
+
+<body>
+    
+        <div class="container">
+            <header class="d-flex justify-content-center py-3">
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="./importantnotes.html" class="nav-link">Important Notes</a></li>
+                    <li class="nav-item"><a href="./git.html" class="nav-link">GIT</a></li>
+                    <li class="nav-item"><a href="./docker.html" class="nav-link">Docker</a></li>
+                    <li class="nav-item"><a href="./postgres.html" class="nav-link">Postgres</a></li>
+                    <li class="nav-item"><a href="./kotlin.html" class="nav-link">Kotlin</a></li>
+                    <li class="nav-item"><a href="./angular.html" class="nav-link active bg-secondary active" aria-current="page">Angular</a></li>
+                    <li class="nav-item"><a href="./servicos.html" class="nav-link">Serviços</a></li>
+                </ul>
+            </header>
+        </div>
+
+    <main>
+        <div class="container px-4 py-5" id="icon-grid">
+            <h2 class="pb-2 border-bottom">Annotations</h2>
+
+            <div class="row ">
+                
+                <div class="col-4 d-flex align-items-start">
+                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                        <use xlink:href="#cpu-fill" />
+                    </svg>
+                    <div>
+                        <a href="./angular.html"><h4 class="fw-bold mb-0">Angular</h4></a>
+                        <p>Anotações Angular</p>
+                    </div>
+                </div>  
+                
+                <div class="col-8 content">
+
+                <h3> <i class="bi bi-arrow-right-circle-fill"></i> Erro: Property '...' has no initializer and is not definitely assigned in the constructor</h3>
+                <p>É só ir no arquivo <strong>tsconfig.json</strong> e alterar a propriedade:</p>
+                <div class="terminal">
+                    <pre><p class="dollar">$ </p>"strictPropertyInitialization": false</pre>
+                </div>
+                <p>Ou:</p>
+                <div class="terminal">
+                    <pre><p class="dollar">$</p>"strict": false</pre>
+                </div>
+
+                <br><br>
+
+                <h3> <i class="bi bi-arrow-right-circle-fill"></i>Compilar o projeto e abrir no navegador</h3>
+                
+                <div class="terminal">
+                    <pre><p class="dollar">$ </p>ng s -o</pre>
+                </div>
+
+                
+                <!-- <h3><i class="bi bi-arrow-right-circle-fill"></i></h3>
+                <div class="terminal">
+                    <pre><p class="dollar">$ </p></pre> 
+                </div> -->
+            </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-3 mb-0 text-muted">&copy; 2021 Company, Inc</p>
+
+        <a href="/"
+            class="col-md-3 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap" />
+            </svg>
+        </a>
+
+        <ul class="nav col-md-6 justify-content-end">
+            <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="./importantnotes.html" class="nav-link px-2 text-muted">Important Notes</a></li>
+            <li class="nav-item"><a href="./git.html" class="nav-link px-2 text-muted">GIT</a></li>
+            <li class="nav-item"><a href="./docker.html" class="nav-link px-2 text-muted">Docker</a></li>
+            <li class="nav-item"><a href="./postgres.html" class="nav-link px-2 text-muted">Postgres</a></li>
+            <li class="nav-item"><a href="./kotlin.html" class="nav-link px-2 text-muted">Kotlin</a></li>
+            <li class="nav-item"><a href="./angular.html" class="nav-link px-2 text-muted">Angular</a></li>
+            <li class="nav-item"><a href="./servicos.html" class="nav-link px-2 text-muted">Servicos</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

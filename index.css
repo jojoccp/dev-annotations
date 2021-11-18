@@ -1,0 +1,110 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    color: black;
+}
+
+.nav-link {
+    color: gray;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.content {
+    background-color: rgb(243, 242, 240);
+    height: 500px;
+    overflow-y: scroll;
+}
+
+/* temrinal */
+
+.terminal {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 6px;
+    padding-top: 45px;
+    margin-top: 8px;
+    overflow: hidden;
+    background-color: rgb(15, 15, 16);
+}
+.terminal::before {
+  content: "\2022 \2022 \2022";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background: rgb(58, 58, 58);
+  color: #c2c3c4;
+  width: 100%;
+  font-size: 2rem;
+  line-height: 0;
+  padding: 10px 0;
+  text-indent: 4px;
+}
+  
+.terminal pre {
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    color: white;
+    padding: 0 1rem 1rem;
+    margin: 0;
+}
+
+.terminal-sql {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 6px;
+    padding-top: 45px;
+    margin-top: 8px;
+    overflow: hidden;
+    background-color: rgb(93, 93, 93);
+}
+
+.terminal-sql::before {
+    content: "\2022 \2022 \2022";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    background: rgb(58, 58, 58);
+    color: #c2c3c4;
+    width: 100%;
+    font-size: 2rem;
+    line-height: 0;
+    padding: 10px 0;
+    text-indent: 4px;
+  }
+    
+  .terminal-sql pre {
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+      color: white;
+      padding: 0 1rem 1rem;
+      margin: 0;
+  }
+
+.dollar {
+    color: rgb(11, 251, 11);
+    display: inline;
+}
+
+.destaque {
+    color: red;
+    display: inline;
+}
+
+#subirServicos, #linkarNoMeta {
+    display: none;
+}
+
+
+.wrapper {
+    display: none;
+ }
